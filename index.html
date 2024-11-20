@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoFi Wala: Unplug and Unwind</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="LoFi Wala">LoFi Wala</li>
+            <li class="border">Home</li>
+            <li class="border">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <!-- Repeat this structure for all songs -->
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="Cover">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="Cover">
+                    <span class="songName">On My Way</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="Cover">
+                    <span class="songName">Faded</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:50 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="Cover">
+                    <span class="songName">Alone</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:12 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="Cover">
+                    <span class="songName">Bella Ciao</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:54 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="Cover">
+                    <span class="songName">Maxico</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:03 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="Cover">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="Cover">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="Cover">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="Cover">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="Cover">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:30 <i class="fa-regular fa-circle-play songItemsPlay"></i></span>
+                    </span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <div class="songInfo">
+            <img src="covers/1.jpg" id="cover" alt="Song Cover">
+            <span id="songTitle">Let Me Love You - Justin Bieber</span>
+        </div>
+        <div class="progress-container">
+            <img src="playing.gif" id="gif" alt="Playing GIF">
+            <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        </div>
+        <div class="icons">
+            
+            <i class="fa-solid fa-2x fa-backward-step" id="prev"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
