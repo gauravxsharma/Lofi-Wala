@@ -128,3 +128,12 @@ nav ul li {
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    margin: 20px;
+    padding-bottom: 30px; 
+}
+
+.songlist {
+    margin-bottom: 40px; 
+}
